@@ -1,4 +1,4 @@
-Shader "ShaderHowtos/Diffuse Vertex"
+Shader "ShaderHowtos/Diffuse Vertexx"
 {
     Properties
     {
