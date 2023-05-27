@@ -7,12 +7,14 @@ public class RenderCubemapWizard : ScriptableWizard {
 	public Transform renderFromPosition;
 	public Cubemap cubemap;
 	
-	void OnWizardUpdate () {
+	void OnWizardUpdate () 
+	{
 		helpString = "Select transform to render from and cubemap to render into";
 		isValid = (renderFromPosition != null) && (cubemap != null);
 	}
 	
-	void OnWizardCreate () {
+	void OnWizardCreate () 
+	{
 		// create temporary camera for rendering
 		GameObject go = new GameObject( "CubemapCamera");
 		go.AddComponent<Camera>();
@@ -26,8 +28,9 @@ public class RenderCubemapWizard : ScriptableWizard {
 	}
 	
 	[MenuItem("GameObject/Render into Cubemap")]
-	static void RenderCubemap () {
+	static void RenderCubemap () 
+	{
 		ScriptableWizard.DisplayWizard<RenderCubemapWizard>(
-			"Render cubemap", "Render!");
+			"Render cubemap", "Render!!!");
 	}
 }

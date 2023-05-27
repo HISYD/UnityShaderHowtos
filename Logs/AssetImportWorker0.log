@@ -15,11 +15,11 @@ D:/Syd_Dev/Projects/UnityShaderHowtos
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-4333
+6912
 Successfully changed project path to: D:/Syd_Dev/Projects/UnityShaderHowtos
 D:/Syd_Dev/Projects/UnityShaderHowtos
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -31,267 +31,817 @@ Direct3D:
     Vendor:   
     VRAM:     8019 MB
     Driver:   31.0.15.3161
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001537 seconds.
+Registered in 0.001356 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.752 seconds
+- Completed reload, in  0.775 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001118 seconds.
+Registered in 0.000945 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.648 seconds
+- Completed reload, in  0.649 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1485 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.5 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1925.
+Total: 1.750500 ms (FindLiveObjects: 0.175600 ms CreateObjectMapping: 0.052400 ms MarkObjects: 1.373300 ms  DeleteObjects: 0.147700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Learning/Scene 9.unity
+  artifactKey: Guid(f7985062d8bd4a84b8f493bfb47506db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Scene 9.unity using Guid(f7985062d8bd4a84b8f493bfb47506db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239c65cbaed8f70721da08986f85a62f') in 0.011730 seconds
+  Import took 0.014319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.959002 seconds.
+  path: Assets/Learning/Cubemap.cubemap
+  artifactKey: Guid(5bed009c297ef994ebf8767f29279bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Cubemap.cubemap using Guid(5bed009c297ef994ebf8767f29279bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1224dfe506028a616ef18865cebd58de') in 0.075873 seconds
+  Import took 0.078299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.524448 seconds.
+  path: Assets/Learning/Chapter 10
+  artifactKey: Guid(f8b8956909a6c9a45b09249c8b712d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10 using Guid(f8b8956909a6c9a45b09249c8b712d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f38673e03dfec24a0582c4a9bac5ee') in 0.005445 seconds
+  Import took 0.007988 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.603 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1418 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.2 MB.
+System memory in use after: 83.3 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1959.
+Total: 1.575200 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.043200 ms MarkObjects: 1.257300 ms  DeleteObjects: 0.111700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.620 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1418 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 83.3 MB.
 System memory in use after: 83.3 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1919.
-Total: 1.808600 ms (FindLiveObjects: 0.202500 ms CreateObjectMapping: 0.070700 ms MarkObjects: 1.395400 ms  DeleteObjects: 0.138800 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1961.
+Total: 1.628200 ms (FindLiveObjects: 0.153000 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.314000 ms  DeleteObjects: 0.115600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000927 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.623 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1418 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.3 MB.
+System memory in use after: 83.3 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1963.
+Total: 1.786600 ms (FindLiveObjects: 0.261800 ms CreateObjectMapping: 0.079400 ms MarkObjects: 1.320700 ms  DeleteObjects: 0.123200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Learning/Chapter 6
-  artifactKey: Guid(91461cd2ce0e4ee42b1c5eef7a484867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Learning/Chapter 6 using Guid(91461cd2ce0e4ee42b1c5eef7a484867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b879b1f5af442d438345482becc28fb') in 0.010324 seconds
-  Import took 0.013194 seconds .
+  Time since last request: 1699.858167 seconds.
+  path: Assets/Learning/Chapter9/S_Shadow.shader
+  artifactKey: Guid(4685db9b352c0594a881a303bd27e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter9/S_Shadow.shader using Guid(4685db9b352c0594a881a303bd27e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99afe437ec2dfcad58ff0384208374a') in 0.018934 seconds
+  Import took 0.021722 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.107375 seconds.
-  path: Assets/Learning/Chapter 6/Scene.unity
-  artifactKey: Guid(c954cefdcac9d054682423e10615ea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Learning/Chapter 6/Scene.unity using Guid(c954cefdcac9d054682423e10615ea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bcd2692162f2f0445e754732701b89') in 0.011642 seconds
-  Import took 0.013592 seconds .
+  Time since last request: 68.392639 seconds.
+  path: Assets/Learning/Chapter 10/RenderCubeMapTool.cs
+  artifactKey: Guid(d0d781b30bfddb24cb5bb3d17365c887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/RenderCubeMapTool.cs using Guid(d0d781b30bfddb24cb5bb3d17365c887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ee98d53a2a28a6924f5d8876edcace') in 0.011682 seconds
+  Import took 0.014224 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001028 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 1.760000 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.090500 ms MarkObjects: 1.246500 ms  DeleteObjects: 0.126200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 199.987000 seconds.
-  path: Assets/Shaders/Chapter8
-  artifactKey: Guid(9d524d966b7e84447a6d0ef01e1b1622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Chapter8 using Guid(9d524d966b7e84447a6d0ef01e1b1622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1849afa6ed4d58788cb9e9d7ce5b3f5c') in 0.006713 seconds
-  Import took 0.009029 seconds .
+  Time since last request: 404.714480 seconds.
+  path: Assets/Learning/Chapter 10/RenderCubeMapTool.cs
+  artifactKey: Guid(d0d781b30bfddb24cb5bb3d17365c887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/RenderCubeMapTool.cs using Guid(d0d781b30bfddb24cb5bb3d17365c887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48d774c59965a1c6e6d6fbd29a56855') in 0.008803 seconds
+  Import took 0.012286 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001112 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.620 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.3 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1968.
+Total: 1.816700 ms (FindLiveObjects: 0.197400 ms CreateObjectMapping: 0.057700 ms MarkObjects: 1.425300 ms  DeleteObjects: 0.135300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.615 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1970.
+Total: 2.358000 ms (FindLiveObjects: 0.234300 ms CreateObjectMapping: 0.079000 ms MarkObjects: 1.890200 ms  DeleteObjects: 0.152700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.619 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 1.968600 ms (FindLiveObjects: 0.278100 ms CreateObjectMapping: 0.074800 ms MarkObjects: 1.485600 ms  DeleteObjects: 0.129200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001273 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.633 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1974.
+Total: 1.703500 ms (FindLiveObjects: 0.151300 ms CreateObjectMapping: 0.042800 ms MarkObjects: 1.388700 ms  DeleteObjects: 0.119000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000954 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.645 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1976.
+Total: 1.974200 ms (FindLiveObjects: 0.173200 ms CreateObjectMapping: 0.046400 ms MarkObjects: 1.605200 ms  DeleteObjects: 0.148000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.628 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1978.
+Total: 2.005000 ms (FindLiveObjects: 0.220100 ms CreateObjectMapping: 0.058300 ms MarkObjects: 1.593200 ms  DeleteObjects: 0.132000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001487 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.622 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 1.745300 ms (FindLiveObjects: 0.160700 ms CreateObjectMapping: 0.041400 ms MarkObjects: 1.397800 ms  DeleteObjects: 0.144100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000959 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.607 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1982.
+Total: 1.808300 ms (FindLiveObjects: 0.218600 ms CreateObjectMapping: 0.057400 ms MarkObjects: 1.392100 ms  DeleteObjects: 0.138300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.616 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 1.949500 ms (FindLiveObjects: 0.175100 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.595300 ms  DeleteObjects: 0.131700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001078 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.617 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1986.
+Total: 1.907800 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.072700 ms MarkObjects: 1.440700 ms  DeleteObjects: 0.135500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001000 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.619 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1988.
+Total: 1.798100 ms (FindLiveObjects: 0.206500 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.415600 ms  DeleteObjects: 0.127500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001407 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.646 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1990.
+Total: 1.953300 ms (FindLiveObjects: 0.293200 ms CreateObjectMapping: 0.070100 ms MarkObjects: 1.440800 ms  DeleteObjects: 0.148200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001028 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.612 seconds
+Platform modules already initialized, skipping
+Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlendZWrite': fallback shader 'Transparent/VertexList' not found
+Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 83.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 1.974000 ms (FindLiveObjects: 0.356000 ms CreateObjectMapping: 0.128100 ms MarkObjects: 1.360500 ms  DeleteObjects: 0.127300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000673 seconds.
-  path: Assets/Shaders/Chapter8
-  artifactKey: Guid(9d524d966b7e84447a6d0ef01e1b1622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Chapter8 using Guid(9d524d966b7e84447a6d0ef01e1b1622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1849afa6ed4d58788cb9e9d7ce5b3f5c') in 0.001301 seconds
-  Import took 0.002999 seconds .
+  Time since last request: 1017.390313 seconds.
+  path: Assets/Learning/Chapter 10/S_Advanced.shader
+  artifactKey: Guid(f2b13d90898966c47bf6c16a26f90152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/S_Advanced.shader using Guid(f2b13d90898966c47bf6c16a26f90152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cfe1422d92e807b59c13cfc3f4c7cb') in 0.016713 seconds
+  Import took 0.019600 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.890496 seconds.
-  path: Assets/Shaders/Chapter8/Chapter8-AlphaBlend.shader
-  artifactKey: Guid(9ab5c065e7d13494c8108f401bbc9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Chapter8/Chapter8-AlphaBlend.shader using Guid(9ab5c065e7d13494c8108f401bbc9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfc1b2771289867a0a1fdd188006ee0') in 0.029721 seconds
-  Import took 0.031551 seconds .
+  Time since last request: 21.065068 seconds.
+  path: Assets/Learning/Chapter 10/S_Advanced.shader
+  artifactKey: Guid(f2b13d90898966c47bf6c16a26f90152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/S_Advanced.shader using Guid(f2b13d90898966c47bf6c16a26f90152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871888a4d67f7b8ef3426d97f0b9c943') in 0.002945 seconds
+  Import took 0.006011 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.428670 seconds.
-  path: Assets/Shaders/Chapter8/Chapter8-AlphaBlendZWrite.shader
-  artifactKey: Guid(bddcbefb926634718829a8fc1ec5df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Chapter8/Chapter8-AlphaBlendZWrite.shader using Guid(bddcbefb926634718829a8fc1ec5df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e36f7898f81ab16a976189e71aa844') in 0.006332 seconds
-  Import took 0.008258 seconds .
+  Time since last request: 962.795022 seconds.
+  path: Assets/Learning/Chapter 10/RenderCubeMapTool.cs
+  artifactKey: Guid(d0d781b30bfddb24cb5bb3d17365c887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/RenderCubeMapTool.cs using Guid(d0d781b30bfddb24cb5bb3d17365c887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d697c4658787c64175093bc4942ff0') in 0.001530 seconds
+  Import took 0.004183 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.450992 seconds.
-  path: Assets/Shaders/Chapter8/Chapter8-AlphaTest.shader
-  artifactKey: Guid(edeb7d1c16e7e473d8e3a6ba8f9f7ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Chapter8/Chapter8-AlphaTest.shader using Guid(edeb7d1c16e7e473d8e3a6ba8f9f7ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6439a873c4739031be1088c98424c52') in 0.006517 seconds
-  Import took 0.008536 seconds .
+  Time since last request: 0.484428 seconds.
+  path: Assets/Learning/Chapter 10/S_Advanced.shader
+  artifactKey: Guid(f2b13d90898966c47bf6c16a26f90152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/S_Advanced.shader using Guid(f2b13d90898966c47bf6c16a26f90152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aaa4f6da0e15d36191132489f91f5b3') in 0.003148 seconds
+  Import took 0.005496 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 867.444598 seconds.
-  path: Assets/Shaders/Chapter8/Chapter8-BlendOperations.shader
-  artifactKey: Guid(b665c8e1b2ba14835adecc984513053f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Chapter8/Chapter8-BlendOperations.shader using Guid(b665c8e1b2ba14835adecc984513053f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eff500d35d874c57e5a0b8ccc7fef6a') in 0.008133 seconds
-  Import took 0.010534 seconds .
+  Time since last request: 79.656920 seconds.
+  path: Assets/Textures/Chapter10/Glass_Cubemap.cubemap
+  artifactKey: Guid(2f9d40339fa684b9bb636b01ca5981f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Glass_Cubemap.cubemap using Guid(2f9d40339fa684b9bb636b01ca5981f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb574a04f2000158906af0769bb4ce0d') in 0.055472 seconds
+  Import took 0.058252 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.653627 seconds.
-  path: Assets/Shaders/Chapter8/Chapter8-AlphaBlendBothSided.shader
-  artifactKey: Guid(d0b54ae82e3da410e940d1974efd311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Chapter8/Chapter8-AlphaBlendBothSided.shader using Guid(d0b54ae82e3da410e940d1974efd311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b8f10c996932f760f7636c35f5aa58') in 0.006310 seconds
-  Import took 0.008225 seconds .
+  Time since last request: 1.854146 seconds.
+  path: Assets/Textures/Chapter10/Cubemap_0.cubemap
+  artifactKey: Guid(5e6d2cc25beb34a998784c5dc7e8fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Cubemap_0.cubemap using Guid(5e6d2cc25beb34a998784c5dc7e8fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c3e53aa4bb181a66a1b53bee3825db') in 0.014050 seconds
+  Import took 0.016687 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 103.815838 seconds.
-  path: Assets/Learning/Chapter 6/S_AlphaTest.shader
-  artifactKey: Guid(576dd46e0e696f741b1a09443ce242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Learning/Chapter 6/S_AlphaTest.shader using Guid(576dd46e0e696f741b1a09443ce242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc4699dc3108ff965746534e51322f7') in 0.008094 seconds
-  Import took 0.010439 seconds .
+  Time since last request: 89.083338 seconds.
+  path: Assets/Textures/Chapter10/Cubemaps
+  artifactKey: Guid(4d43d2303a5354fc0be8e00802a4a0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Cubemaps using Guid(4d43d2303a5354fc0be8e00802a4a0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a01b5b51d80802ae8b60fd1682a6a8') in 0.005331 seconds
+  Import took 0.007676 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.495663 seconds.
-  path: Assets/Learning/Chapter 6/S_AlphaTest.shader
-  artifactKey: Guid(576dd46e0e696f741b1a09443ce242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Learning/Chapter 6/S_AlphaTest.shader using Guid(576dd46e0e696f741b1a09443ce242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90bfe81ff21c42f8dc80385f5ea07b4') in 0.003621 seconds
-  Import took 0.006118 seconds .
+  Time since last request: 0.000758 seconds.
+  path: Assets/Textures/Chapter10/Cubemaps
+  artifactKey: Guid(4d43d2303a5354fc0be8e00802a4a0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Cubemaps using Guid(4d43d2303a5354fc0be8e00802a4a0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a01b5b51d80802ae8b60fd1682a6a8') in 0.001341 seconds
+  Import took 0.003282 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.126254 seconds.
-  path: Assets/Learning/Chapter 6/S_AlphaTest.shader
-  artifactKey: Guid(576dd46e0e696f741b1a09443ce242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Learning/Chapter 6/S_AlphaTest.shader using Guid(576dd46e0e696f741b1a09443ce242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d6a41d9228dc942fdb894f0e625dbf') in 0.002998 seconds
-  Import took 0.005184 seconds .
+  Time since last request: 2.508573 seconds.
+  path: Assets/Textures/Chapter10/Glass_Diffuse.jpg
+  artifactKey: Guid(5a681b8a6f3f74dc8945676ebe2407d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Glass_Diffuse.jpg using Guid(5a681b8a6f3f74dc8945676ebe2407d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef320fc68b823a57b7d41174b9292ea') in 0.017212 seconds
+  Import took 0.019208 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 142.539517 seconds.
-  path: Assets/Learning/Chapter 6/S_AlphaTest.shader
-  artifactKey: Guid(576dd46e0e696f741b1a09443ce242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Learning/Chapter 6/S_AlphaTest.shader using Guid(576dd46e0e696f741b1a09443ce242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
- -> (artifact id: '78e903ceb7130d7917fea66eb18ee63e') in 0.002461 seconds
-  Import took 0.004887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 161.864494 seconds.
-  path: Assets/Textures/Chapter8
-  artifactKey: Guid(ae7b13166f96c4a20b62e1b715ef2e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Chapter8 using Guid(ae7b13166f96c4a20b62e1b715ef2e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b821cae02c0e7db7a593fb82f6d7e768') in 0.006108 seconds
-  Import took 0.008136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001384 seconds.
-  path: Assets/Textures/Chapter8
-  artifactKey: Guid(ae7b13166f96c4a20b62e1b715ef2e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Chapter8 using Guid(ae7b13166f96c4a20b62e1b715ef2e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b821cae02c0e7db7a593fb82f6d7e768') in 0.001486 seconds
-  Import took 0.003249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.815310 seconds.
-  path: Assets/Textures/Chapter8/transparent_texture.psd
-  artifactKey: Guid(b267cbeeb93b04e788664246bdc46985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Chapter8/transparent_texture.psd using Guid(b267cbeeb93b04e788664246bdc46985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccf40b19e89feb083b53451f13f6ff0') in 0.041217 seconds
-  Import took 0.043173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 535.409929 seconds.
-  path: Assets/Learning/Chapter 6/S_AlphaTest.shader
-  artifactKey: Guid(576dd46e0e696f741b1a09443ce242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Learning/Chapter 6/S_AlphaTest.shader using Guid(576dd46e0e696f741b1a09443ce242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
- -> (artifact id: 'f43bc01ff2f494e4468211a577991931') in 0.002351 seconds
-  Import took 0.004913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1054.290169 seconds.
-  path: Assets/Shaders/Chapter8/Chapter8-AlphaTestBothSided.shader
-  artifactKey: Guid(1b388109c164d46e490e5f05cb2edcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Chapter8/Chapter8-AlphaTestBothSided.shader using Guid(1b388109c164d46e490e5f05cb2edcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009b1cf46b75ecc2d7b343545e7a7723') in 0.007292 seconds
-  Import took 0.009529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 579.920965 seconds.
-  path: Assets/Learning/Chapter 6/S_AlphaBlend.shader
-  artifactKey: Guid(cf21c262b6f0e444fb78c881bfe1ba37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Learning/Chapter 6/S_AlphaBlend.shader using Guid(cf21c262b6f0e444fb78c881bfe1ba37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72297ab9d53ab3a71111fd6adda5b622') in 0.008210 seconds
-  Import took 0.010717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.925369 seconds.
-  path: Assets/Learning/Chapter 6/S_AlphaBlend.shader
-  artifactKey: Guid(cf21c262b6f0e444fb78c881bfe1ba37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Learning/Chapter 6/S_AlphaBlend.shader using Guid(cf21c262b6f0e444fb78c881bfe1ba37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
- -> (artifact id: '94f97707ccf856689f6d0ca3bb5e2a08') in 0.002429 seconds
-  Import took 0.004421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 373.350631 seconds.
-  path: Assets/Learning/Chapter 6/S_AlphaTest.shader
-  artifactKey: Guid(576dd46e0e696f741b1a09443ce242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Learning/Chapter 6/S_AlphaTest.shader using Guid(576dd46e0e696f741b1a09443ce242b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'ShaderHowtos/S_AlphaTest': fallback shader 'Transparent/Cutout/VertexList' not found
- -> (artifact id: 'fa56774413f30b53e8000b0eff59b7f8') in 0.003076 seconds
-  Import took 0.006091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 128.354908 seconds.
-  path: Assets/Materials/Chapter8
-  artifactKey: Guid(4f6601ac88270481c866b76d69c71d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Chapter8 using Guid(4f6601ac88270481c866b76d69c71d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5018b651bd0d4884bce37aced6c8d466') in 0.006454 seconds
-  Import took 0.008326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 518.648691 seconds.
-  path: Assets/Learning/Chapter 6/S_AlphaBlend.shader
-  artifactKey: Guid(cf21c262b6f0e444fb78c881bfe1ba37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Learning/Chapter 6/S_AlphaBlend.shader using Guid(cf21c262b6f0e444fb78c881bfe1ba37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
- -> (artifact id: '2bc6233f5a86567c09f9b60b992ef82a') in 0.002665 seconds
-  Import took 0.005098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.315597 seconds.
-  path: Assets/Learning/Chapter 6/S_AlphaBlendZWrite.shader
-  artifactKey: Guid(3940fe8e0bc4180438876e9f1073b180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Learning/Chapter 6/S_AlphaBlendZWrite.shader using Guid(3940fe8e0bc4180438876e9f1073b180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56355626e9c527c8503d3fb107b5f863') in 0.009217 seconds
-  Import took 0.011723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.360959 seconds.
-  path: Assets/Learning/Chapter 6/S_AlphaBlendZWrite.shader
-  artifactKey: Guid(3940fe8e0bc4180438876e9f1073b180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Learning/Chapter 6/S_AlphaBlendZWrite.shader using Guid(3940fe8e0bc4180438876e9f1073b180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'ShaderHowtos/S_AlphaBlend': fallback shader 'Transparent/Cutout/VertexList' not found
- -> (artifact id: '10689ab8afcc4095da62eeed97bf9425') in 0.002217 seconds
-  Import took 0.004980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17242.058728 seconds.
-  path: Assets/Shaders/Chapter8/Chapter8-AlphaBlendZWrite.shader
-  artifactKey: Guid(bddcbefb926634718829a8fc1ec5df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Chapter8/Chapter8-AlphaBlendZWrite.shader using Guid(bddcbefb926634718829a8fc1ec5df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc35f3515f7d9740da5c5bc433b205de') in 0.007238 seconds
+  Time since last request: 0.014795 seconds.
+  path: Assets/Textures/Chapter10/Glass_Diffuse.jpg
+  artifactKey: Guid(5a681b8a6f3f74dc8945676ebe2407d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Glass_Diffuse.jpg using Guid(5a681b8a6f3f74dc8945676ebe2407d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef320fc68b823a57b7d41174b9292ea') in 0.007778 seconds
   Import took 0.009799 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Shaders/Chapter8/Chapter8-AlphaBlendZWrite.shader
-  artifactKey: Guid(bddcbefb926634718829a8fc1ec5df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Chapter8/Chapter8-AlphaBlendZWrite.shader using Guid(bddcbefb926634718829a8fc1ec5df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc35f3515f7d9740da5c5bc433b205de') in 0.002056 seconds
-  Import took 0.003988 seconds .
+  Time since last request: 35.692334 seconds.
+  path: Assets/Textures/Chapter10/Cereals.sbsar
+  artifactKey: Guid(f3a2a1abb417143c08f0442679aff010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Cereals.sbsar using Guid(f3a2a1abb417143c08f0442679aff010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3629356571668f8ffac1c0529b5b291') in 0.006635 seconds
+  Import took 0.009127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002732 seconds.
+  path: Assets/Textures/Chapter10/Cereals.sbsar
+  artifactKey: Guid(f3a2a1abb417143c08f0442679aff010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Cereals.sbsar using Guid(f3a2a1abb417143c08f0442679aff010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3629356571668f8ffac1c0529b5b291') in 0.001557 seconds
+  Import took 0.003414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.276900 seconds.
+  path: Assets/Textures/Chapter11
+  artifactKey: Guid(cdef7120ea50e4f3a919dd9dee40cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter11 using Guid(cdef7120ea50e4f3a919dd9dee40cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288a3b243d08cf818870ad62924741db') in 0.005415 seconds
+  Import took 0.007660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000802 seconds.
+  path: Assets/Textures/Chapter11
+  artifactKey: Guid(cdef7120ea50e4f3a919dd9dee40cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter11 using Guid(cdef7120ea50e4f3a919dd9dee40cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288a3b243d08cf818870ad62924741db') in 0.001477 seconds
+  Import took 0.003359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.700223 seconds.
+  path: Assets/Textures/Chapter10
+  artifactKey: Guid(d75cdc9788e9740ff98efe88319a181c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10 using Guid(d75cdc9788e9740ff98efe88319a181c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcd7c816a94a94d574e9fdc7bd868c9') in 0.004801 seconds
+  Import took 0.007388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/Textures/Chapter10
+  artifactKey: Guid(d75cdc9788e9740ff98efe88319a181c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10 using Guid(d75cdc9788e9740ff98efe88319a181c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcd7c816a94a94d574e9fdc7bd868c9') in 0.001330 seconds
+  Import took 0.003218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.951723 seconds.
+  path: Assets/Textures/Chapter10/Cubemaps/negx.jpg
+  artifactKey: Guid(802ea53d6ad434ef7a70b8c9fc2fef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Cubemaps/negx.jpg using Guid(802ea53d6ad434ef7a70b8c9fc2fef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c63f785c3b1f472e7aa58f924bad685') in 0.023099 seconds
+  Import took 0.025298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.045294 seconds.
+  path: Assets/Textures/Chapter10/Cubemaps/posx.jpg
+  artifactKey: Guid(446893422365d40039e0760b89621e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Cubemaps/posx.jpg using Guid(446893422365d40039e0760b89621e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50ec51bd8c3f97837472b7598fc3039') in 0.009026 seconds
+  Import took 0.011549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007343 seconds.
+  path: Assets/Textures/Chapter10/Cubemaps/posx.jpg
+  artifactKey: Guid(446893422365d40039e0760b89621e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Cubemaps/posx.jpg using Guid(446893422365d40039e0760b89621e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50ec51bd8c3f97837472b7598fc3039') in 0.009697 seconds
+  Import took 0.011829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1850.846957 seconds.
+  path: Assets/Learning/Chapter 10/RT_Mirror.renderTexture
+  artifactKey: Guid(3a5e773b3b6aa2d41970b64476ee3b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/RT_Mirror.renderTexture using Guid(3a5e773b3b6aa2d41970b64476ee3b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7820782631679cd954838e6a8f2534eb') in 0.012287 seconds
+  Import took 0.014760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.872399 seconds.
+  path: Assets/Learning/Chapter 10/S_Mirror.shader
+  artifactKey: Guid(22fbe00af1c19664eb1b5b59add99940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/S_Mirror.shader using Guid(22fbe00af1c19664eb1b5b59add99940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022f7c3f57867f4370f87da8242ebd3d') in 0.006731 seconds
+  Import took 0.009900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.372607 seconds.
+  path: Assets/Learning/Chapter 10/S_Advanced.shader
+  artifactKey: Guid(f2b13d90898966c47bf6c16a26f90152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/S_Advanced.shader using Guid(f2b13d90898966c47bf6c16a26f90152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8269703278df8adc9c939a7d44400f13') in 0.005988 seconds
+  Import took 0.009039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 394.881361 seconds.
+  path: Assets/Learning/Chapter 10/S_Mirror.shader
+  artifactKey: Guid(22fbe00af1c19664eb1b5b59add99940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/S_Mirror.shader using Guid(22fbe00af1c19664eb1b5b59add99940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cab79737261c1805c94560c1fa0963f') in 0.002048 seconds
+  Import took 0.004975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 520.373057 seconds.
+  path: Assets/Textures/Chapter10/MirrorTexture.renderTexture
+  artifactKey: Guid(686e5bbcea87e4b7baacf416b52d4a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/MirrorTexture.renderTexture using Guid(686e5bbcea87e4b7baacf416b52d4a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba5bdf51518e5e73a2c86ebac59de96') in 0.009096 seconds
+  Import took 0.012288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001095 seconds.
+  path: Assets/Textures/Chapter10/MirrorTexture.renderTexture
+  artifactKey: Guid(686e5bbcea87e4b7baacf416b52d4a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/MirrorTexture.renderTexture using Guid(686e5bbcea87e4b7baacf416b52d4a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba5bdf51518e5e73a2c86ebac59de96') in 0.004558 seconds
+  Import took 0.006823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.847451 seconds.
+  path: Assets/Textures/Chapter10/Glass_Normal.jpg
+  artifactKey: Guid(9d6a060d595674a7dbe1d5ac3a5f127f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Glass_Normal.jpg using Guid(9d6a060d595674a7dbe1d5ac3a5f127f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d73b2f78e57e7f18d9a09aca74484fb') in 0.011688 seconds
+  Import took 0.014117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 308.456751 seconds.
+  path: Assets/Learning/Chapter 10/S_GlassFrac.shader
+  artifactKey: Guid(fdc8cc88bdee07841ada82b7e50de31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/S_GlassFrac.shader using Guid(fdc8cc88bdee07841ada82b7e50de31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e725f7eff1a3a1f023155bee578f1951') in 0.007178 seconds
+  Import took 0.009767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.902559 seconds.
+  path: Assets/Learning/Chapter 10/S_GlassFrac.shader
+  artifactKey: Guid(fdc8cc88bdee07841ada82b7e50de31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/S_GlassFrac.shader using Guid(fdc8cc88bdee07841ada82b7e50de31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'ShaderHowtos/Chapter 10/S_GlassFrac': fallback shader 'Transparent' not found
+ -> (artifact id: '910e20fe3fd86c7afd7ddd8834bbe0ac') in 0.001945 seconds
+  Import took 0.004726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 329.184391 seconds.
+  path: Assets/Learning/Chapter 10/S_GlassFrac.shader
+  artifactKey: Guid(fdc8cc88bdee07841ada82b7e50de31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/S_GlassFrac.shader using Guid(fdc8cc88bdee07841ada82b7e50de31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'ShaderHowtos/Chapter 10/S_GlassFrac': fallback shader 'Transparent' not found
+ -> (artifact id: 'c329ad622a5cdc3f7ba3a81b17c102c9') in 0.002420 seconds
+  Import took 0.004928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.528334 seconds.
+  path: Assets/Learning/Chapter 10/S_GlassFrac.shader
+  artifactKey: Guid(fdc8cc88bdee07841ada82b7e50de31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/S_GlassFrac.shader using Guid(fdc8cc88bdee07841ada82b7e50de31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'ShaderHowtos/Chapter 10/S_GlassFrac': fallback shader 'Transparent' not found
+ -> (artifact id: '9ed1a71143b5a0eb5e16648e8255d649') in 0.001790 seconds
+  Import took 0.003790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2306.100529 seconds.
+  path: Assets/Learning/Chapter 10/Cubemap.cubemap
+  artifactKey: Guid(5bed009c297ef994ebf8767f29279bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/Cubemap.cubemap using Guid(5bed009c297ef994ebf8767f29279bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63a887bfca3ae88476931f573f5914e') in 0.147060 seconds
+  Import took 0.154392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.271701 seconds.
+  path: Assets/Textures/Chapter10/Cubemap_0.cubemap
+  artifactKey: Guid(5e6d2cc25beb34a998784c5dc7e8fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Cubemap_0.cubemap using Guid(5e6d2cc25beb34a998784c5dc7e8fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c0ced320dfae7c358480c59a2f8638') in 0.010107 seconds
+  Import took 0.012166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004506 seconds.
+  path: Assets/Textures/Chapter10/Cubemap_0.cubemap
+  artifactKey: Guid(5e6d2cc25beb34a998784c5dc7e8fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter10/Cubemap_0.cubemap using Guid(5e6d2cc25beb34a998784c5dc7e8fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c0ced320dfae7c358480c59a2f8638') in 0.010506 seconds
+  Import took 0.012633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.833208 seconds.
+  path: Assets/Learning/Chapter 10/S_GlassFrac.shader
+  artifactKey: Guid(fdc8cc88bdee07841ada82b7e50de31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning/Chapter 10/S_GlassFrac.shader using Guid(fdc8cc88bdee07841ada82b7e50de31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'ShaderHowtos/Chapter 10/S_GlassFrac': fallback shader 'Transparent' not found
+ -> (artifact id: 'ad503a45f5b2668e76d14b588f36002a') in 0.002067 seconds
+  Import took 0.004130 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -14,8 +14,7 @@ Shader "ShaderHowtos/S_AlphaBlendZWrite"
         {
             ZWrite On
             ColorMask 0
-
-        }
+            }
         
         Pass
         {
@@ -68,7 +67,7 @@ Shader "ShaderHowtos/S_AlphaBlendZWrite"
                 return fixed4(diffuse, texColor.a * _AlphaScaler);
             }
 
-            
+
             ENDCG
         }
     }
