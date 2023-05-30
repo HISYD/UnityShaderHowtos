@@ -55,7 +55,7 @@ Shader "Unity Shaders Book/Chapter 12/Motion Blur" {
 		Pass {   
 			Blend One Zero
 			ColorMask A
-			   	
+
 			CGPROGRAM  
 			
 			#pragma vertex vert  

@@ -22,10 +22,14 @@ public class MotionBlur : PostEffectsBase {
 		DestroyImmediate(accumulationTexture);
 	}
 
-	void OnRenderImage (RenderTexture src, RenderTexture dest) {
+	void OnRenderImage (RenderTexture src, RenderTexture dest) 
+	{
 		if (material != null) {
 			// Create the accumulation texture
-			if (accumulationTexture == null || accumulationTexture.width != src.width || accumulationTexture.height != src.height) {
+			if (accumulationTexture == null || 
+			    accumulationTexture.width != src.width || 
+			    accumulationTexture.height != src.height) 
+			{
 				DestroyImmediate(accumulationTexture);
 				accumulationTexture = new RenderTexture(src.width, src.height, 0);
 				accumulationTexture.hideFlags = HideFlags.HideAndDontSave;
@@ -40,7 +44,9 @@ public class MotionBlur : PostEffectsBase {
 
 			Graphics.Blit (src, accumulationTexture, material);
 			Graphics.Blit (accumulationTexture, dest);
-		} else {
+		} 
+		else 
+		{
 			Graphics.Blit(src, dest);
 		}
 	}
